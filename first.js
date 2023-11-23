@@ -57,7 +57,7 @@ const routes = [
     ["ORD", "BGI"],
     ["BGI", "LGA"],
     ["SIN", "CDG"],
-    ["CDG", "SIN"],
+    ["CDG", "SAN"],
     ["CDG", "BUD"],
     ["DEL", "DOH"],
     ["DEL", "CDG"],
@@ -75,4 +75,5 @@ const routes = [
 ]
 
 bfsWithShortestPath(routes, "LGA", "SAN")
-bfsWithShortestPath(routes, airports[6], airports[10])
+bfsWithShortestPath(routes, airports[3], airports[10])
+
